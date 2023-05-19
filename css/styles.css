@@ -25,3 +25,23 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    }
+
+  .emoji span {
+    order: -1;
+    align-self: center;
+  }
+
+  .emoji p {
+    flex-grow: 1;
+  }
